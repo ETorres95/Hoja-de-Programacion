@@ -1,0 +1,5 @@
+c = float(input('Ingrese monto a Invertir: '))
+i = float(input('Ingrese el interes Anual (En decimal): '))
+a = float(input('Ingrese la cantidad de años a invertir: '))
+t = (((c*i)*a)+c)
+print('El interes obtenido es:', round(t, 2))
